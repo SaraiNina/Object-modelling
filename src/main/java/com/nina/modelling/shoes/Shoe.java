@@ -13,7 +13,7 @@ public class Shoe {
    }
    public Shoe(String model, String closingType) {
        this.closingType = closingType;
-       this.closingType = model;
+       this.model = model;
    }
    public Shoe(String material){
        this.material = material;

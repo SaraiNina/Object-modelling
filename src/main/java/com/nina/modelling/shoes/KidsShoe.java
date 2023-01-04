@@ -2,28 +2,28 @@ package com.nina.modelling.shoes;
 
 public class KidsShoe extends Shoe {
     private String category;
-    private String accessories;
+    private String accessory;
     private String type;
 
-    public KidsShoe(String category, String accessories, String type) {
+    public KidsShoe(String category, String accessory, String type) {
         this.category = category;
-        this.accessories = accessories;
+        this.accessory = accessory;
         this.type = type;
     }
 
     public KidsShoe(String category){
         this.category = category;
     }
-    public KidsShoe(String accessories, String type){
-        this.accessories = accessories;
+    public KidsShoe(String accessory, String type){
+        this.accessory = accessory;
         this.type = type;
     }
 
     public String getCategory(){
         return category;
     }
-    public String getAccessories(){
-        return accessories;
+    public String getAccessory(){
+        return accessory;
     }
     public String getType(){
         return type;
