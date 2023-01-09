@@ -6,12 +6,12 @@ public class ShoeFactory extends Shoe {
 
     public static void main(String[] args) {
 
-        KidsShoe kidsShoe = new KidsShoe ("Summer" , "Flower" , "Orthopedic");
-        KidsShoe kidsShoe1 = new KidsShoe("Summer");
-        KidsShoe kidsShoe2 = new KidsShoe("Winter", "Orthopedic");
-        System.out.println("KidsShoe Category = " + kidsShoe1.category());
-        System.out.println("KidsShoe Accessory = " + kidsShoe.getAccessory());
-        System.out.println("KidsShoe = " + kidsShoe2.getType());
+        KidShoe kidShoe = new KidShoe("Summer" , "Flower" , "Orthopedic");
+        KidShoe kidShoe1 = new KidShoe("Summer");
+        KidShoe kidShoe2 = new KidShoe("Winter", "Orthopedic");
+        System.out.println("KidsShoe Category = " + kidShoe1.category());
+        System.out.println("KidsShoe Accessory = " + kidShoe.getAccessory());
+        System.out.println("KidsShoe = " + kidShoe2.getType());
 
         MenShoe menShoe = new MenShoe();
         MenShoe menShoe1 = new MenShoe("Zara");
