@@ -11,21 +11,24 @@ public class KidShoe extends Shoe {
         this.type = type;
     }
 
-    public KidShoe(String category){
+    public KidShoe(String category) {
         this.category = category;
     }
-    public KidShoe(String accessory, String type){
+
+    public KidShoe(String accessory, String type) {
         this.accessory = accessory;
         this.type = type;
     }
 
-    public String category(){
+    public String category() {
         return category;
     }
-    public String getAccessory(){
+
+    public String Accessory() {
         return accessory;
     }
-    public String getType(){
+
+    public String Type() {
         return type;
     }
 }
