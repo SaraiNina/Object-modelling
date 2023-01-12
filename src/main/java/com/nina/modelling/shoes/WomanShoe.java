@@ -15,11 +15,11 @@ public class WomanShoe extends Shoe {
         this.collections = collections;
     }
 
-    public String getAccessory() {
+    public String accessory() {
         return accessory;
     }
 
-    public String getCollections() {
+    public String collection() {
         return collections;
     }
 }

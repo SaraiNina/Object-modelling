@@ -24,11 +24,11 @@ public class KidShoe extends Shoe {
         return category;
     }
 
-    public String Accessory() {
+    public String accessory() {
         return accessory;
     }
 
-    public String Type() {
+    public String type() {
         return type;
     }
 }

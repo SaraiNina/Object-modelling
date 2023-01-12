@@ -1,17 +1,17 @@
 package com.nina.modelling.shoes;
 
-public class MenShoe extends Shoe {
+public class ManShoe extends Shoe {
 
     private String brand;
 
-    public MenShoe(String brand) {
+    public ManShoe(String brand) {
         this.brand = brand;
     }
 
-    public MenShoe() {
+    public ManShoe() {
     }
 
-    public String getBrand() {
+    public String brand() {
         return brand;
     }
 

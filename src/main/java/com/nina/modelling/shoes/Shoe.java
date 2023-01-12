@@ -18,15 +18,15 @@ public class Shoe {
         this.material = material;
     }
 
-    public String getModel() {
+    public String model() {
         return model;
     }
 
-    public String getClosingType() {
+    public String closingType() {
         return closingType;
     }
 
-    public String getMaterial() {
+    public String material() {
         return material;
     }
 
