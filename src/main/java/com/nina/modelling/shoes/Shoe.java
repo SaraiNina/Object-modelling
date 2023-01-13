@@ -9,13 +9,13 @@ public class Shoe {
     public Shoe() {
     }
 
+    public Shoe(String material) {
+        this.material = material;
+    }
+
     public Shoe(String model, String closingType) {
         this.model = model;
         this.closingType = closingType;
-    }
-
-    public Shoe(String material) {
-        this.material = material;
     }
 
     public String model() {

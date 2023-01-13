@@ -1,7 +1,6 @@
 package com.nina.modelling.shoes;
 
 
-
 public class ShoeFactory extends Shoe {
 
     public static void main(String[] args) {
@@ -14,7 +13,7 @@ public class ShoeFactory extends Shoe {
         System.out.println("KidsShoe = " + kidShoe2.type());
 
         ManShoe manShoe = new ManShoe();
-        ManShoe manShoe1 = new ManShoe("Zara");
+        ManShoe manShoe1 = new ManShoe("Zara"); //TODO: no numbers in variable names
         System.out.println("MenShoe = " + manShoe1.brand() + "" + manShoe.brand());
 
 
@@ -24,7 +23,6 @@ public class ShoeFactory extends Shoe {
         System.out.println(" Shoe ClosingType = " + shoe.closingType());
         System.out.println(" Shoe Material = " + shoe1.material() + "" + shoe2.material());
         System.out.println(" Shoe Model = " + shoe.model());
-
 
 
         WomanShoe womanShoe = new WomanShoe("Flower", "Zar");

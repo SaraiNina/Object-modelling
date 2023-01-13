@@ -4,11 +4,11 @@ public class ManShoe extends Shoe {
 
     private String brand;
 
-    public ManShoe(String brand) {
-        this.brand = brand;
+    public ManShoe() {
     }
 
-    public ManShoe() {
+    public ManShoe(String brand) {
+        this.brand = brand;
     }
 
     public String brand() {
