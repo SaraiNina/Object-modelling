@@ -13,15 +13,15 @@ public class ShoeFactory extends Shoe {
         System.out.println("KidsShoe = " + kidShoe2.type());
 
         ManShoe manShoe = new ManShoe();
-        ManShoe manShoe1 = new ManShoe("Zara"); //TODO: no numbers in variable names
-        System.out.println("MenShoe = " + manShoe1.brand() + "" + manShoe.brand());
+        ManShoe manShoeFromZara = new ManShoe("Zara"); //TODO: no numbers in variable names
+        System.out.println("MenShoe = " + manShoeFromZara.brand() + "" + manShoe.brand());
 
 
         Shoe shoe = new Shoe();
-        Shoe shoe1 = new Shoe("Skin", "Zipper");
+        Shoe shoeWithZipperAndMadeOfSkin = new Shoe("Skin", "Zipper");
         Shoe shoe2 = new Shoe("Skin");
         System.out.println(" Shoe ClosingType = " + shoe.closingType());
-        System.out.println(" Shoe Material = " + shoe1.material() + "" + shoe2.material());
+        System.out.println(" Shoe Material = " + shoeWithZipperAndMadeOfSkin.material() + "" + shoe2.material());
         System.out.println(" Shoe Model = " + shoe.model());
 
 
