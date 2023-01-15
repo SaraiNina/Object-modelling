@@ -1,23 +1,23 @@
 package com.nina.modelling.shoes;
 
 public class WomanShoe extends Shoe {
-    private String collections;  //TODO: probably list of strings
+    private String group;
     private String accessory;
 
     public WomanShoe() {
     }
 
-    public WomanShoe(String collections) {
-        this.collections = collections;
+    public WomanShoe(String group) {
+        this.group = group;
     }
 
-    public WomanShoe(String accessory, String collections) {
+    public WomanShoe(String accessory, String group) {
         this.accessory = accessory;
-        this.collections = collections;
+        this.group = group;
     }
 
-    public String collection() {
-        return collections;
+    public String group() {
+        return group;
     }
 
     public String accessory() {

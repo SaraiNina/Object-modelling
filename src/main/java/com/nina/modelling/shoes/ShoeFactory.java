@@ -5,32 +5,32 @@ public class ShoeFactory extends Shoe {
 
     public static void main(String[] args) {
 
-        KidShoe kidShoe = new KidShoe("Summer", "Flower", "Orthopedic");
-        KidShoe kidShoe1 = new KidShoe("Summer");
-        KidShoe kidShoe2 = new KidShoe("Winter", "Orthopedic");
-        System.out.println("KidsShoe Category = " + kidShoe1.category());
-        System.out.println("KidsShoe Accessory = " + kidShoe.accessory());
-        System.out.println("KidsShoe = " + kidShoe2.type());
+        KidShoe kidShoeLittleBaby = new KidShoe("Summer", "Flower", "Orthopedic");
+        KidShoe kidShoeNewCategory = new KidShoe("Summer");
+        KidShoe kidShoeWinter = new KidShoe("Winter", "Orthopedic");
+        System.out.println("KidsShoe Category = " + kidShoeNewCategory.category());
+        System.out.println("KidsShoe Accessory = " + kidShoeLittleBaby.accessory());
+        System.out.println("KidsShoe = " + kidShoeWinter.type());
 
-        ManShoe manShoe = new ManShoe();
+        ManShoe maryShoe = new ManShoe();
         ManShoe manShoeFromZara = new ManShoe("Zara"); //TODO: no numbers in variable names
-        System.out.println("MenShoe = " + manShoeFromZara.brand() + "" + manShoe.brand());
+        System.out.println("MenShoe = " + manShoeFromZara.brand() + "" + maryShoe.brand());
 
 
-        Shoe shoe = new Shoe();
+        Shoe jonsShoe = new Shoe();
         Shoe shoeWithZipperAndMadeOfSkin = new Shoe("Skin", "Zipper");
-        Shoe shoe2 = new Shoe("Skin");
-        System.out.println(" Shoe ClosingType = " + shoe.closingType());
-        System.out.println(" Shoe Material = " + shoeWithZipperAndMadeOfSkin.material() + "" + shoe2.material());
-        System.out.println(" Shoe Model = " + shoe.model());
+        Shoe shoeAnotherMaterial = new Shoe("Skin");
+        System.out.println(" Shoe ClosingType = " + jonsShoe.closingType());
+        System.out.println(" Shoe Material = " + shoeWithZipperAndMadeOfSkin.material() + "" + shoeAnotherMaterial.material());
+        System.out.println(" Shoe Model = " + jonsShoe.model());
 
 
-        WomanShoe womanShoe = new WomanShoe("Flower", "Zar");
-        WomanShoe womanCollection = new WomanShoe("Ama");
-        WomanShoe womanDefault = new WomanShoe();
-        System.out.println("Woman Shoe =" + "" + womanShoe.accessory() + womanShoe.collection());
-        System.out.println("New collection = " + womanCollection.collection());
-        System.out.println("No Shoe = " + womanDefault);
+        WomanShoe womanAccessory = new WomanShoe("Flower", "Zar");
+        WomanShoe womanGroup = new WomanShoe("Ama");
+        WomanShoe womanShoe = new WomanShoe();
+        System.out.println("Woman Shoe =" + "" + womanAccessory.accessory() + womanAccessory.group());
+        System.out.println("New collection = " + womanGroup.group());
+        System.out.println("No Shoe = " + womanShoe);
 
     }
 
