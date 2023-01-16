@@ -1,0 +1,5 @@
+Object Modeling Shoes:
+- create a class diagram for shoes object hierarchy.
+- implement class diagram in Java code.
+- use static code analysis tools to verify code for issues and potential bugs.
+- create a GitHub branch and Pull Request and fix all threads from code review.
