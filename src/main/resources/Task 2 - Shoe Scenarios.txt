@@ -1,0 +1,10 @@
+Use Case scenario:
+- implement a use case scenario of a factory that will use Shoe object hierarchy to produce different types of shoes in a factory.
+- consider using a Customer and a Vendor as actors.
+- consider creation of following objects: ShoeFactory, Store, PriceList, Order, Stock, CustomerDetails. Each object will have its own properties and real life abstracted methods. 
+- Vendor will create a PriceList and populate with different types of Shoes and place in the Shop.
+- ShoeFactory will create different models of shoes in big numbers and place in the Stock.
+- Several Customers will check PriceList and place a order, the store will process the order and create a shipment by customers request 
+with price from PriceList and if only available in Stock. When a item is purchased it should be removed from stock.
+- All scenarios will initialized from main main method in Scenario class.
+- PriceList and Stock are classes that have lists or maps as class static for data storage. 
